@@ -3,14 +3,14 @@
   background:linear-gradient(to right,rgba(103, 34, 128, 1),rgba(166, 38, 211, 1));
   @include flex(space-between,center);
   color: white;
-  padding:0 20px;
-  height:65px;
+  padding:0 rem(20);
+  height:rem(65);
   &__logo{
    @include flex(space-between,center);
-    column-gap: 10px;
+    column-gap: rem(10);
     &--img{
-      width: 31px;
-      height: 26px;
+      width: rem(31);
+      height: rem(26);
     }
   }
 }

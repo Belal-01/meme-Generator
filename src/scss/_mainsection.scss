@@ -1,0 +1,56 @@
+%input-bar{
+  height:rem(35);
+  width:rem(200);
+  border-radius: rem(5);
+  border-color: rgba(209, 213, 219, 1);
+  border-width: rem(1.3);
+  margin: rem(5) 0;
+  font-size: rem(14);
+  padding:0 rem(10);
+  color:rgba(107, 114, 128, 1);
+}
+
+.mainSection{
+  width: rem(477);
+  margin: rem(20) auto;
+  &__button{
+    button{
+      width: 100%;
+      height: rem(40);
+      background:linear-gradient(to right,rgba(103, 34, 128, 1),rgba(166, 38, 211, 1));
+      color: white;
+      font-size: rem(16);
+      font-weight: bold;
+      margin: rem(20) 0;
+      border:none;
+      border-radius: rem(5);
+    }   
+  }
+  &__img{
+    img{
+      width:100%;
+      margin:rem(15) 0;
+    }
+  }
+}
+.input{
+  @include flex(space-between,center);
+  &__top{
+   &-label{
+    display: block;
+   }
+   &-bar{
+   @extend %input-bar;
+
+ 
+   }
+  }
+  &__buttom{
+    &-label{
+      display: block;
+    }
+    &-bar{
+      @extend %input-bar;
+    }
+  }
+}

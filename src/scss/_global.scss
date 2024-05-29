@@ -3,6 +3,13 @@
   padding: 0;
   margin:0;
 }
+@function rem($value){
+  $remvalue:$value;
+  @if(type-of($value==number)){
+    $remvalue:$value/16 + rem;
+  }
+  @return $remvalue;
+}
 @mixin flex($justifiy-content:center,$align-items:center){
   display: flex;
   justify-content: $justifiy-content;

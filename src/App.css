@@ -10,21 +10,64 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 0 20px;
-  height: 65px;
+  padding: 0 1.25rem;
+  height: 4.0625rem;
 }
 .nav__logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  -moz-column-gap: 0.625rem;
+       column-gap: 0.625rem;
 }
 .nav__logo--img {
-  width: 31px;
-  height: 26px;
+  width: 1.9375rem;
+  height: 1.625rem;
 }
 
+.input__buttom-bar, .input__top-bar {
+  height: 2.1875rem;
+  width: 12.5rem;
+  border-radius: 0.3125rem;
+  border-color: rgb(209, 213, 219);
+  border-width: 0.08125rem;
+  margin: 0.3125rem 0;
+  font-size: 0.875rem;
+  padding: 0 0.625rem;
+  color: rgb(107, 114, 128);
+}
+
+.mainSection {
+  width: 29.8125rem;
+  margin: 1.25rem auto;
+}
+.mainSection__button button {
+  width: 100%;
+  height: 2.5rem;
+  background: linear-gradient(to right, rgb(103, 34, 128), rgb(166, 38, 211));
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1.25rem 0;
+  border: none;
+  border-radius: 0.3125rem;
+}
+.mainSection__img img {
+  width: 100%;
+  margin: 0.9375rem 0;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input__top-label {
+  display: block;
+}
+.input__buttom-label {
+  display: block;
+}
 .title {
   color: red;
 }/*# sourceMappingURL=App.css.map */
