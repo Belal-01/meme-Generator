@@ -1,5 +1,28 @@
-.Header {
-  color: blue;
+* {
+  font-family: "karla", Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background: linear-gradient(to right, rgb(103, 34, 128), rgb(166, 38, 211));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+  height: 65px;
+}
+.nav__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.nav__logo--img {
+  width: 31px;
+  height: 26px;
 }
 
 .title {

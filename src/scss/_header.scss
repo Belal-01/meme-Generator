@@ -1,4 +1,16 @@
-.Header{
-  color:blue;
 
+.nav{
+  background:linear-gradient(to right,rgba(103, 34, 128, 1),rgba(166, 38, 211, 1));
+  @include flex(space-between,center);
+  color: white;
+  padding:0 20px;
+  height:65px;
+  &__logo{
+   @include flex(space-between,center);
+    column-gap: 10px;
+    &--img{
+      width: 31px;
+      height: 26px;
+    }
+  }
 }
